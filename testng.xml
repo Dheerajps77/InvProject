@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browser" value="chrome" />
+	<test name="Test">
+		<!-- <groups>
+			<run>
+				<include name="regression" />
+			</run>
+		</groups> -->	
+		<classes>			
+			<!-- <class name="com.investaSolutions.tests.LoginTest" />
+			<class name="com.investaSolutions.tests.DisconnectTest" />			
+			<class name="com.investaSolutions.tests.AMAssetManagerTest" />
+			<class name="com.investaSolutions.tests.AssetManagerPortalTest" />
+			<class name="com.investaSolutions.tests.AMStrategyManagementTest" /> -->
+			<!-- <class name="com.investaSolutions.tests.VerifyPortfolioModelManagementTest" /> -->
+		<!-- 	<class name="com.investaSolutions.tests.AMStrategyManagementTest" /> -->
+ <!-- 		<class name="com.investaSolutions.tests.VerifyInstrumentManagementsTest"/> -->
+<!-- 		<class name="com.investaSolutions.tests.VerifyPortfolioModelManagementTest" />
+		<class name="com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest"/>
+		<class name="com.investaSolutions.tests.VerifyInvestmentObjectivesOnStrategyManagementTest"/>
+		<class name="com.investaSolutions.tests.VerifyMarketingMaterialsOnStrategyManagementTest"/> -->
+		<!-- <class name="com.investaSolutions.tests.VerifyGlobalFilterOnInstrumentPageTest"/> -->
+		<class name="com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest"/>
+		</classes>
+	</test>
+</suite> 

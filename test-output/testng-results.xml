@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="127601" started-at="2019-07-26T12:21:02Z" finished-at="2019-07-26T12:23:10Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="127601" started-at="2019-07-26T12:21:02Z" finished-at="2019-07-26T12:23:10Z">
+      <class name="com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest@3d51f06e]" name="beforeSuite" is-config="true" duration-ms="4091" started-at="2019-07-26T17:50:58Z" finished-at="2019-07-26T17:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="testToVerifyStrategyDetailsOnStrategyManagementPageTest(java.lang.reflect.Method)[pri:3, instance:com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest@3d51f06e]" name="testToVerifyStrategyDetailsOnStrategyManagementPageTest" duration-ms="127462" started-at="2019-07-26T17:51:02Z" description="Verifying strategy details on strategy-management page in the page" finished-at="2019-07-26T17:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest.testToVerifyStrategyDetailsOnStrategyManagementPageTest(java.lang.reflect.Method) throws java.lang.Throwable]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyStrategyDetailsOnStrategyManagementPageTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest@3d51f06e]" name="afterMethod" is-config="true" duration-ms="125" started-at="2019-07-26T17:53:09Z" finished-at="2019-07-26T17:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testToVerifyStrategyDetailsOnStrategyManagementPageTest status=SUCCESS method=VerifyStrategyDetailsOnStrategyManagementTest.testToVerifyStrategyDetailsOnStrategyManagementPageTest(java.lang.reflect.Method)[pri:3, instance:com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest@3d51f06e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest@3d51f06e]" name="generateReport" is-config="true" duration-ms="5881" started-at="2019-07-26T17:53:10Z" finished-at="2019-07-26T17:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
