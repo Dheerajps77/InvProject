@@ -70,6 +70,7 @@ public class UserFunctions {
 			}
 			if(portal.equals(TestBase.properties.getConstant("Bank"))){
 				driver.get(BANK_ENVIRONMENT);
+				driver.navigate().refresh();
 				enterDetailsAndLogin(user);
 			}
 		}catch (Exception e) {

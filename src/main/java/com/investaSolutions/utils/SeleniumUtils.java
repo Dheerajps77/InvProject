@@ -54,8 +54,9 @@ public class SeleniumUtils {
 
 	public static final WebElement waitForElementClickable(WebDriver driver, By findByCondition, int waitInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, waitInSeconds);
-		wait.until(ExpectedConditions.elementToBeClickable(findByCondition));
+		wait.until(ExpectedConditions.elementToBeClickable(findByCondition));		
 		return driver.findElement(findByCondition);
+		
 	}
 
 	public static int countWindow(WebDriver driver) {
@@ -194,6 +195,19 @@ public class SeleniumUtils {
 		actions.click();
 		actions.build().perform();
 	}
+
+	public static void waitAndClick(WebDriver driver, WebElement iwebElement,int time) throws InterruptedException
+    {
+        for (int i=0;i<=time;i++)
+        {
+            Thread.sleep(500);
+            if (iwebElement.isDisplayed() && iwebElement.isEnabled())
+            {
+                iwebElement.click();
+                break;
+            }
+        }
+    }
 
 	public static final void clickAndEnterText(WebDriver driver, By findByCondition, int waitInSeconds, String text) {
 		WebDriverWait wait = new WebDriverWait(driver, waitInSeconds);

@@ -47,7 +47,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Jul 26, 2019 05:50:58 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 8, 2019 07:09:02 PM</span>
 				</a>
 			</li>
 			<li>
@@ -85,7 +85,7 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>Strategydetailsonstrategy-listpage</a></li>
+					<li><a href='#'>Userpagedetailsonuser-listpage</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -148,10 +148,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='40%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='22.222%'><span class='strong'>2</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='60%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='77.778%'>7</span> others
 				</div>
 			</div>
 		</div>
@@ -168,20 +168,20 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Verify Strategy details on strategy-management page</span>
-						<span class='test-time'>Jul 26, 2019 05:51:03 PM</span>
+						<span class='test-name'>Verify User page details on user-list page</span>
+						<span class='test-time'>Aug 8, 2019 07:09:07 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Jul 26, 2019 05:51:03 PM</span>
-	<span class='label end-time'>Jul 26, 2019 05:53:09 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 2m 6s+817ms</span>
+	<span class='label start-time'>Aug 8, 2019 07:09:07 PM</span>
+	<span class='label end-time'>Aug 8, 2019 07:09:26 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 19s+633ms</span>
 </div>
-	<div class='test-desc'>This test is verify whether Strategy details are present in the strategy-management page or not </div>
+	<div class='test-desc'>This test is verify whether User Tab and details is present in the user-list page or not </div>
 	<div class='test-attributes'>
 			<div class='category-list'>
-				<span class='category label white-text'>Strategydetailsonstrategy-listpage</span>
+				<span class='category label white-text'>Userpagedetailsonuser-listpage</span>
 			</div>
 	</div>
 	<div class='test-steps'>
@@ -196,27 +196,47 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>5:51:11 PM</td>
-					<td class='step-details'>User [ john.doe@magic-am.com ] logged in successfully</td>
+					<td class='timestamp'>7:09:15 PM</td>
+					<td class='step-details'>User [ john.doe@magic-bank.com ] logged in successfully</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>5:51:19 PM</td>
-					<td class='step-details'>Clicked on Strategy Management Tab verification is passed</td>
+					<td class='timestamp'>7:09:20 PM</td>
+					<td class='step-details'>User tab title verification passed. Expected details : [Users], Actual details : [Users]</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>5:51:24 PM</td>
-					<td class='step-details'>Clicked on [New Strategy] button verification is passed</td>
+					<td class='timestamp'>7:09:24 PM</td>
+					<td class='step-details'>Clicked on [Users] tab button verification is passed</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>7:09:26 PM</td>
+					<td class='step-details'>User Management title verification is passed. Expected details : [User Management], Actual details : [User Management]</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>7:09:26 PM</td>
+					<td class='step-details'>The table column names of User Management verification passed. Expected details : [E, D, Firstname, Lastname, Email, E], Actual details : [L]</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>7:09:26 PM</td>
+					<td class='step-details'>The back button is present in the page. Expected details : [Back], Actual details : [Back]</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>7:09:26 PM</td>
+					<td class='step-details'>The New Instrument button is present in the page.Expected details : [New User], Actual details : [New User]</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:53:09 PM</td>
-					<td class='step-details'><span class='label white-text green'>testToVerifyStrategyDetailsOnStrategyManagementPageTest: Test Case Passed: </span></td>
+					<td class='timestamp'>7:09:26 PM</td>
+					<td class='step-details'><span class='label white-text green'>testToVerifyUserTabAndDetailsOnUserListTest: Test Case Passed: </span></td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>5:53:09 PM</td>
+					<td class='timestamp'>7:09:26 PM</td>
 					<td class='step-details'>Test passed</td>
 				</tr>
 			</tbody>
@@ -276,7 +296,7 @@
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>Strategydetailsonstrategy-listpage</span>
+						<span class='category-name'>Userpagedetailsonuser-listpage</span>
 						<span class='category-status right'>
 							<span class='label pass'>1</span>
 						</span>
@@ -299,8 +319,8 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Jul 26, 2019 05:51:03 PM</td>
-										<td class='linked' test-id='1'>Verify Strategy details on strategy-management page</td>
+										<td>Aug 8, 2019 07:09:07 PM</td>
+										<td class='linked' test-id='1'>Verify User page details on user-list page</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -335,25 +355,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>5</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Jul 26, 2019 05:50:58 PM</div>
+					<div class='panel-lead'>Aug 8, 2019 07:09:02 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Jul 26, 2019 05:53:10 PM</div>
+			 		<div class='panel-lead'>Aug 8, 2019 07:09:26 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 2m 11s+575ms</div>
+					<div class='panel-lead'>0h 0m 24s+134ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -401,7 +421,7 @@
 							<th>Passed %</th>
 						</tr>
 						<tr>
-							<td>Strategydetailsonstrategy-listpage</td>
+							<td>Userpagedetailsonuser-listpage</td>
 							<td>1</td>
 							<td>0</td>
 							<td>0</td>
@@ -436,7 +456,7 @@
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 3,
+				infoChild: 7,
 				exceptionsChild: 0,
 				
 				passGrandChild: 0,

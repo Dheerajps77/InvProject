@@ -4,14 +4,14 @@
   <parameter name="browser" value="chrome"/>
   <test name="Test(failed)">
     <classes>
-      <class name="com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest">
+      <class name="com.investaSolutions.tests.VerifyUserTest">
         <methods>
+          <include name="testToVerifyUserTabAndDetailsOnUserListTest" invocation-numbers="0"/>
           <include name="beforeSuite"/>
           <include name="afterMethod"/>
           <include name="generateReport"/>
-          <include name="testToVerifyStrategyDetailsOnStrategyManagementPageTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest -->
+      </class> <!-- com.investaSolutions.tests.VerifyUserTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

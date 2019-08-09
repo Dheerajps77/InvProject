@@ -22,7 +22,9 @@
 		<class name="com.investaSolutions.tests.VerifyInvestmentObjectivesOnStrategyManagementTest"/>
 		<class name="com.investaSolutions.tests.VerifyMarketingMaterialsOnStrategyManagementTest"/> -->
 		<!-- <class name="com.investaSolutions.tests.VerifyGlobalFilterOnInstrumentPageTest"/> -->
-		<class name="com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest"/>
+		<!-- <class name="com.investaSolutions.tests.VerifyBenchmarkCategorizationOnBenchmarkCreationTest"/> -->
+	<!-- 	<class name="com.investaSolutions.tests.VerifyModelsTest"/> -->
+		<class name="com.investaSolutions.tests.VerifyUserTest"/>
 		</classes>
 	</test>
 </suite> 
