@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="20293" started-at="2019-08-08T13:39:06Z" finished-at="2019-08-08T13:39:26Z">
+  <suite name="Suite" duration-ms="17085" started-at="2019-08-14T11:47:14Z" finished-at="2019-08-14T11:47:31Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="20293" started-at="2019-08-08T13:39:06Z" finished-at="2019-08-08T13:39:26Z">
-      <class name="com.investaSolutions.tests.VerifyUserTest">
-        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.investaSolutions.tests.VerifyUserTest@1e397ed7]" name="beforeSuite" is-config="true" duration-ms="3936" started-at="2019-08-08T19:09:02Z" finished-at="2019-08-08T19:09:06Z">
+    <test name="Test" duration-ms="17085" started-at="2019-08-14T11:47:14Z" finished-at="2019-08-14T11:47:31Z">
+      <class name="com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest@1e397ed7]" name="beforeSuite" is-config="true" duration-ms="3861" started-at="2019-08-14T17:17:10Z" finished-at="2019-08-14T17:17:14Z">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,33 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="testToVerifyUserTabAndDetailsOnUserListTest(java.lang.reflect.Method)[pri:1, instance:com.investaSolutions.tests.VerifyUserTest@1e397ed7]" name="testToVerifyUserTabAndDetailsOnUserListTest" duration-ms="20176" started-at="2019-08-08T19:09:06Z" finished-at="2019-08-08T19:09:26Z">
+        <test-method status="PASS" signature="testToVerifySettingVerifyGlobalFilterOnPMConfigTest(java.lang.reflect.Method)[pri:1, instance:com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest@1e397ed7]" name="testToVerifySettingVerifyGlobalFilterOnPMConfigTest" duration-ms="16975" started-at="2019-08-14T17:17:14Z" finished-at="2019-08-14T17:17:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.investaSolutions.tests.VerifyUserTest.testToVerifyUserTabAndDetailsOnUserListTest(java.lang.reflect.Method) throws java.lang.Exception]]>
+                <![CDATA[public void com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest.testToVerifySettingVerifyGlobalFilterOnPMConfigTest(java.lang.reflect.Method) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testToVerifyUserTabAndDetailsOnUserListTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.investaSolutions.tests.VerifyUserTest@1e397ed7]" name="afterMethod" is-config="true" duration-ms="108" started-at="2019-08-08T19:09:26Z" finished-at="2019-08-08T19:09:26Z">
+        </test-method> <!-- testToVerifySettingVerifyGlobalFilterOnPMConfigTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest@1e397ed7]" name="afterMethod" is-config="true" duration-ms="103" started-at="2019-08-14T17:17:31Z" finished-at="2019-08-14T17:17:31Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testToVerifyUserTabAndDetailsOnUserListTest status=SUCCESS method=VerifyUserTest.testToVerifyUserTabAndDetailsOnUserListTest(java.lang.reflect.Method)[pri:1, instance:com.investaSolutions.tests.VerifyUserTest@1e397ed7] output={null}]]]>
+                <![CDATA[[TestResult name=testToVerifySettingVerifyGlobalFilterOnPMConfigTest status=SUCCESS method=VerifySettingVerifyGlobalFilterOnPMConfigTest.testToVerifySettingVerifyGlobalFilterOnPMConfigTest(java.lang.reflect.Method)[pri:1, instance:com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest@1e397ed7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.investaSolutions.tests.VerifyUserTest@1e397ed7]" name="generateReport" is-config="true" duration-ms="5701" started-at="2019-08-08T19:09:26Z" finished-at="2019-08-08T19:09:32Z">
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest@1e397ed7]" name="generateReport" is-config="true" duration-ms="5663" started-at="2019-08-14T17:17:31Z" finished-at="2019-08-14T17:17:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-      </class> <!-- com.investaSolutions.tests.VerifyUserTest -->
+      </class> <!-- com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

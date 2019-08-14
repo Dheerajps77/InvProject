@@ -42,10 +42,6 @@ public class BankManagerUserPage {
 					tabButton = SeleniumUtils.waitForElementClickable(driver, USER_TAB_TITLE, 30);
 					Thread.sleep(3000);
 					SeleniumUtils.waitAndClick(driver, tabButton, 10);
-					/*
-					 * //SeleniumUtils.clickElement(driver,USER_TAB_TITLE);
-					 * tabButton.sendKeys(Keys.ENTER);
-					 */
 					TestBase.logInfo(String.format(TestBase.properties.getLogMessage("VerifyUserTabTitlePassed"),
 							getUserTabTitleText));
 				}

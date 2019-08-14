@@ -28,6 +28,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.gargoylesoftware.htmlunit.javascript.host.media.webkitAudioContext;
 import com.investaSolutions.base.TestBase;
+import com.mysql.jdbc.Driver;
 
 public class SeleniumUtils {
 	public static PropertiesManager properties = PropertiesManager.getInstance();
@@ -345,5 +346,27 @@ public class SeleniumUtils {
 			throw e;
 		}
 		return returnElement;
+	}
+	
+	// This will get a cell details of sepcific column from Table in pm-Configuration page
+	public ArrayList<String> getSepcificColumnCellDetailsFromTable(WebDriver driver)
+	{
+		ArrayList<String> arrayList;
+		List<WebElement> tableCellText;
+		try {
+			arrayList=new ArrayList<String>();
+			tableCellText=driver.findElements(By.xpath("//div[@class='ui-table-wrapper ng-star-inserted']//tbody//tr//td[3]"));
+			int count=tableCellText.size();
+			for(int i=1;i<=count;i++)
+			{
+				WebElement element=driver.findElement(By.xpath("//div[@class='ui-table-wrapper ng-star-inserted']//tbody//tr["+i+"]//td[3]"));
+				String textValue=element.getText();
+				arrayList.add(textValue);
+			}
+			
+		} catch (Exception e) {
+			throw e;
+		}
+		return arrayList;
 	}
 }

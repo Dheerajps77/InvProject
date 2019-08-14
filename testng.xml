@@ -15,7 +15,7 @@
 			<class name="com.investaSolutions.tests.AssetManagerPortalTest" />
 			<class name="com.investaSolutions.tests.AMStrategyManagementTest" /> -->
 			<!-- <class name="com.investaSolutions.tests.VerifyPortfolioModelManagementTest" /> -->
-		<!-- 	<class name="com.investaSolutions.tests.AMStrategyManagementTest" /> -->
+		<!-- 	<class name="com.investaSolutions.tests.AMStrategyMa\nagementTest" /> -->
  <!-- 		<class name="com.investaSolutions.tests.VerifyInstrumentManagementsTest"/> -->
 <!-- 		<class name="com.investaSolutions.tests.VerifyPortfolioModelManagementTest" />
 		<class name="com.investaSolutions.tests.VerifyStrategyDetailsOnStrategyManagementTest"/>
@@ -24,7 +24,8 @@
 		<!-- <class name="com.investaSolutions.tests.VerifyGlobalFilterOnInstrumentPageTest"/> -->
 		<!-- <class name="com.investaSolutions.tests.VerifyBenchmarkCategorizationOnBenchmarkCreationTest"/> -->
 	<!-- 	<class name="com.investaSolutions.tests.VerifyModelsTest"/> -->
-		<class name="com.investaSolutions.tests.VerifyUserTest"/>
+		<!-- <class name="com.investaSolutions.tests.VerifyUserTest"/> -->
+		<class name="com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest"/>
 		</classes>
 	</test>
 </suite> 

@@ -4,14 +4,14 @@
   <parameter name="browser" value="chrome"/>
   <test name="Test(failed)">
     <classes>
-      <class name="com.investaSolutions.tests.VerifyUserTest">
+      <class name="com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest">
         <methods>
-          <include name="testToVerifyUserTabAndDetailsOnUserListTest" invocation-numbers="0"/>
+          <include name="testToVerifySettingVerifyGlobalFilterOnPMConfigTest" invocation-numbers="0"/>
           <include name="beforeSuite"/>
           <include name="afterMethod"/>
           <include name="generateReport"/>
         </methods>
-      </class> <!-- com.investaSolutions.tests.VerifyUserTest -->
+      </class> <!-- com.investaSolutions.tests.VerifySettingVerifyGlobalFilterOnPMConfigTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

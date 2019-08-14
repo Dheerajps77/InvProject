@@ -4,7 +4,7 @@
       "Password":"magic"
    },
    "Bank_User1":{  
-      "UserName":"john.doe@magic-bank.com",
-      "Password":"magic"
+      "UserName":"john.doe@abcbank.com",
+      "Password":"investa"
    }
 }
