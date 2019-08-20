@@ -32,6 +32,8 @@ import com.mysql.jdbc.Driver;
 
 public class SeleniumUtils {
 	public static PropertiesManager properties = PropertiesManager.getInstance();
+	
+	 
 
 	public static void turnOffImplicitWaits(WebDriver driver) {
 		driver.manage().timeouts().implicitlyWait(0, TimeUnit.SECONDS);
